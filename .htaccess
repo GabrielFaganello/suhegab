@@ -1,0 +1,50 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	Options +FollowSymlinks
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^js/([a-z0-9]+)/(.+)$ js/$2 [QSA,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^css/([a-z0-9]+)/(.+)$ css/$2 [QSA,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^images/([a-z0-9]+)/(.+)$ images/$2 [QSA,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^resources/([a-z0-9]+)/(.+)$ resources/$2 [QSA,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteRule ^uploads/([a-z0-9]+)/(.+)$ uploads/$2 [QSA,L]
+
+	RewriteBase /
+
+    RewriteCond %{HTTP_USER_AGENT} GbPlugin [NC,OR]
+
+	RewriteCond %{REQUEST_URI} ^system.*
+	RewriteRule ^(.*)$ /index.php?/$1 [L]
+
+	RewriteCond %{REQUEST_URI} ^application.*
+	RewriteRule ^(.*)$ /index.php?/$1 [L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php?/$1 [L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{HTTP_HOST} ^www\.(.*)
+
+    RewriteRule (.*) http://%1/$1 [R=301,L]
+
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+	ErrorDocument 404 /index.php
+</IfModule>
+
+
+<IfModule mod_php5.c>
+#php_value post_max_size 20M
+#php_value upload_max_filesize 20M
+</IfModule>
