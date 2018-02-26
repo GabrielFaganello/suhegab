@@ -24,7 +24,7 @@
 */
 $server = (isset($_SERVER["HTTP_HOST"])) ? $_SERVER["HTTP_HOST"] : '127.0.0.1';
 
-$config['base_url'] = 'http://'.$server.'/';
+$config['base_url']  = 'http://'.$server.'/';
 
 /*
 |--------------------------------------------------------------------------
@@ -36,7 +36,7 @@ $config['base_url'] = 'http://'.$server.'/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '';
+$config['index_page'] = 'index.php';
 
 /*
 |--------------------------------------------------------------------------
