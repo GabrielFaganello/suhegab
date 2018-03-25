@@ -141,47 +141,55 @@
 
           <div class="col-md-offset-3 col-md-6" align="center" >
 
-            <div class="col-md-offset-1 col-md-2" align="center" >
-                <span id="time_day" style="font-size: 70px; font-family: digital;">105</span>
-            </div>
-            <div class="col-md-offset-1 col-md-2" align="center" >
-                <span id="time_hour" style="font-size: 70px; font-family: digital;">18</span>
-            </div>
-            <div class="col-md-1" align="center" >
-                <span style="font-size: 70px; font-family: digital;">:</span>
-            </div>          
             <div class="col-md-2" align="center" >
-                <span id="time_minute" style="font-size: 70px; font-family: digital;">10</span>
+              <div class="row">
+                <span id="time_day" class="font_contdown">105</span>
+              </div>
+              <div class="row">
+                <span class="font_label_contdown">Dias</span>
+              </div>
             </div>
-            <div class="col-md-1" align="center" >
-                <span style="font-size: 70px; font-family: digital;">:</span>
-            </div>                   
+
             <div class="col-md-2" align="center" >
-                <span id="time_second" style="font-size: 70px; font-family: digital;">35</span>
+                <span class="font_contdown visible-lg visible-md visible-sm"> - </span>
+            </div>  
+
+            <div class="col-md-2" align="center" >
+              <div class="row">
+                <span id="time_hour" class="font_contdown">18</span>
+              </div>
+              <div class="row">
+                <span class="font_label_contdown">Horas</span>
+              </div>
+            </div>
+
+            <div class="col-md-1" align="center" >
+                <span class="font_contdown visible-lg visible-md visible-sm ">:</span>
+            </div>       
+
+            <div class="col-md-2" align="center" >
+              <div class="row">
+                <span id="time_minute" class="font_contdown">10</span>
+              </div>
+              <div class="row">
+                <span class="font_label_contdown">Minutos</span>
+              </div>
+            </div>
+
+            <div class="col-md-1" align="center" >
+                <span class="font_contdown visible-lg visible-md visible-sm">:</span>
+            </div>  
+
+            <div class="col-md-2" align="center" >
+              <div class="row">
+                <span id="time_second" class="font_contdown">35</span>
+              </div>
+              <div class="row">
+                <span class="font_label_contdown">Segundos</span>
+              </div>
             </div>
 
           </div>
-
-        </div>
-        <div class="row">
-
-          <div class="col-md-offset-3 col-md-6" align="center" >
-
-            <div class="col-md-offset-1 col-md-2" align="center" >
-                <span style="font-size: 24px; font-family: digital;">Dias</span>
-            </div>
-            <div class="col-md-offset-1 col-md-2" align="center" >
-                <span style="font-size: 24px; font-family: digital;">Horas</span>
-            </div>
-            <div class="col-md-offset-1 col-md-2" align="center" >
-                <span style="font-size: 24px; font-family: digital;">Minutos</span>
-            </div>
-            <div class="col-md-offset-1 col-md-2" align="center" >
-                <span style="font-size: 24px; font-family: digital;">Segundos</span>
-            </div>  
-
-          </div> 
-
         </div>
       </div>
     </div>

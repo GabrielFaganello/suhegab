@@ -34,6 +34,16 @@
 	font-family: Bernard !important;
 }
 
+.font_contdown{
+	font-size: 70px !important; 
+	font-family: Bernard !important;
+}
+
+.font_label_contdown{
+	font-size: 24px; 
+	font-family: Bernard !important;
+}
+
 @media (max-width: 767px) {
 
 	.font_bg{
