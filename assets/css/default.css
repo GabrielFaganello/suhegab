@@ -221,8 +221,8 @@ header .title {
 header .brand h1 {
   color: #ffffff;
   display: inline-block;
-  border-top: 1px solid #ffffff;
-  border-bottom: 1px solid #ffffff;
+  /*border-top: 1px solid #ffffff;*/
+  /*border-bottom: 1px solid #ffffff;*/
   padding: 10px 15px;
   font-size: 76px;
   text-shadow: 2px 2px 0px #23263b;
@@ -458,11 +458,11 @@ textarea.error {
 .footer {
   font-size: 12px;
   background-color: #23263b;
-  color: #dd659f;
+  color: white;
 }
 .footer p {
   margin-top: 15px;
 }
 .footer a {
-  color: #dd659f;
+  color: white;
 }
