@@ -67,7 +67,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand visible-xs" href="#"><span class="font_s_header">S </span><span class="font_header">G</span></a>
+          <a class="navbar-brand visible-xs" href="#"><span class="font_s_header">S&nbsp</span><span class="font_e_header" style="font-size: 10px;"> & &nbsp</span><span class="font_header"> G</span></a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -131,7 +131,7 @@
     <div class="section">
       <div class="container-fluid">
         <div class="row">
-            <h1 class="text-center wow fadeInDown font_title" style="font-size: 48px; margin-top: -2px;">FALTAM:</h1> 
+            <h1 class="text-center wow fadeInDown font_title" id="theme_other" style="font-size: 48px; margin-top: -2px;">FALTAM:</h1> 
           <!-- <div class="text-center wow fadeInDown font_garamond" style="font-size: 30px;">FALTAM...</div><br> -->
         </div>
         <div class="row color-default">
@@ -274,7 +274,7 @@
         </div>
         <div class="row">
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img1.jpg" data-wow-delay="1s" class="photo wow fadeInDown">
+            <a href="assets/img/gallery/img1.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
               <img src="assets/img/gallery/img1_thumb.jpg"  class="img-responsive">
             </a>
           </div>
@@ -284,7 +284,7 @@
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img3.jpg" data-wow-delay="1s" class="photo wow fadeInDown">
+            <a href="assets/img/gallery/img3.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
               <img src="assets/img/gallery/img3_thumb.jpg" class="img-responsive">
             </a>
           </div>
@@ -301,7 +301,7 @@
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img6.jpg" data-wow-delay="1s" class="photo wow fadeInDown">
+            <a href="assets/img/gallery/img6.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
               <img src="assets/img/gallery/img6_thumb.jpg" class="img-responsive">
             </a>
           </div>
@@ -311,7 +311,7 @@
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img6.jpg" data-wow-delay="1s" class="photo wow fadeInDown">
+            <a href="assets/img/gallery/img6.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
               <img src="assets/img/gallery/img6_thumb.jpg" class="img-responsive">
             </a>
           </div>          
@@ -381,7 +381,7 @@
           <div class="gift-partner">
             <div class="row"></div>
             <div class="col-md-offset-1 col-md-5 wow fadeInUp" style="margin: 30px;">
-              <a href="http://nossosite.fastshop.com.br/suellenegabriel" target="_blank"><img src="assets/img/fast-logo-re.png" class="img-responsive" style="max-height: 120px;"></a>
+              <a href="http://nossosite.fastshop.com.br/suellenegabriel" target="_blank"><img src="assets/img/fast-logo.png" class="img-responsive" style="max-height: 120px;"></a>
             </div>
             <div class="col-md-5 wow fadeInUp" style="margin: 30px;">
               <a href="https://www.camicado.com.br/weddinglist/products/60378280" target="_blank"><img src="assets/img/camicado-logo.png" class="img-responsive" style="max-height: 120px;"></a>
@@ -744,6 +744,7 @@
           if (date.getDate() == set_day && date.getMonth() == set_month && date.getFullYear() == set_year) {
 
             $("#other_day").addClass("hide");
+            $("#theme_other").addClass("hide");
             $("#today").removeClass("hide");
             $("#time_today").html("É HOJE!");
 
@@ -781,6 +782,7 @@
             }else{
 
               $("#other_day").addClass("hide");
+              $("#theme_other").addClass("hide");
               $("#today").removeClass("hide");
 
               $("#time_today").html("Melhor dia! 07/07/2018");
