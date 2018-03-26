@@ -305,7 +305,7 @@ header .brand h1 {
   }
 }
 .section-about {
-  background-color: #ccc;
+  background-color: #23263b;
 }
 .media-about img {
   max-width: 150px;
@@ -389,7 +389,7 @@ header .brand h1 {
 }
 .section-gallery .photo {
   border: 1px solid #efefef;
-  padding: 10px 10px 30px;
+  padding: 10px 10px 40px;
   background-color: #ffffff;
   margin-top: 15px;
   margin-bottom: 15px;

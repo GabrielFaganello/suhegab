@@ -18,6 +18,14 @@
   font-family: 'Bernard';
   src: url('/assets/fonts/Bernard.ttf');
 }
+@font-face {
+  font-family: 'Garamond';
+  src: url('/assets/fonts/Garamond.ttf');
+}
+@font-face {
+  font-family: 'Times_New_Roman';
+  src: url('/assets/fonts/Times_New_Roman.ttf');
+}
 
 .font_header{
 	font-family: Love_Hewits !important;
@@ -34,6 +42,10 @@
 	font-family: Bernard !important;
 }
 
+.font_garamond{
+	font-family: Garamond !important;
+}
+
 .font_contdown{
 	font-size: 70px !important; 
 	font-family: Bernard !important;
@@ -42,6 +54,50 @@
 .font_label_contdown{
 	font-size: 24px; 
 	font-family: Bernard !important;
+}
+
+.font_history{
+	font-size: 24px; 
+	color: #fff !important;
+	font-family: Bernard !important;
+}
+.font_white{
+	color: #fff;
+}
+
+.color-default{
+	color: #23263b;
+}
+
+.sub-title-white {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.sub-title-white:before {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 60px;
+  background-color: #fff;
+  margin-right: 10px;
+  position: relative;
+  top: -5px;
+}
+.sub-title-white:after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 60px;
+  background-color: #fff;
+  margin-left: 10px;
+  position: relative;
+  top: -5px;
+}
+
+.circle img {
+  position: relative;
+  bottom: 0;
+  height: 100%;
 }
 
 @media (max-width: 767px) {
@@ -59,6 +115,30 @@
 		font-family: Scriptina !important;
 	}
 
+	.circle {
+	  background-color: #aaa;
+	  border-radius: 50%;
+	  width: 240px;
+	  height: 240px;
+	  overflow: hidden;
+	  position: relative;
+	}
+
+	.text_mob_right{
+		text-align: center !important;
+	}
+	.text_mob_left{
+		text-align: center !important;
+	}
+
+	.margin-gamb{
+		margin-top: 55% !important;
+	}
+
+	.size-gamb{
+		height: 450px !important;
+	}
+
 }
 
 @media (min-width: 767px) {
@@ -74,6 +154,29 @@
 	.font_s_bg{
 		font-size: 90px !important; 
 		font-family: Scriptina !important;
+	}
+
+	.circle {
+	  background-color: #aaa;
+	  border-radius: 50%;
+	  width: 300px;
+	  height: 300px;
+	  overflow: hidden;
+	  position: relative;
+	}
+	.text_mob_right{
+		text-align: right !important;
+	}
+	.text_mob_left{
+		text-align: left !important;
+	}	
+
+	.margin-gamb{
+		margin-top: 15% !important;
+	}
+
+	.size-gamb{
+		height: 600px !important;
 	}
 
 }
