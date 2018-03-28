@@ -85,7 +85,7 @@
       </div>
     </nav>
 
-    <header class="size-gamb" style="background-image: url('assets/img/header-bg.jpg');" id="welcome">
+    <header class="size-gamb" style="background-image: url('assets/img/gallery/ensaio_9.jpg');" id="welcome">
       <div class="overlay"></div>
       <div class="container">
         <div class="intro-content margin-gamb" >
@@ -98,41 +98,11 @@
         </div>
       </div>
     </header>
-    
-<!--     <div class="section section-parents">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-offset-2 col-md-4 col-sm-6">
-            <div class="parents text-center wow fadeIn">
-              <div class="title">Pais da Noiva</div>
-              <h3>Sr José de Souza (in memoriam)<br> e <br> Sra Valeria Folli</h3>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="parents text-center wow fadeIn">
-              <div class="title">Pais do Noivo</div>
-              <h3>Sr Walter M. Maruyama<br> e <br> Sra Lucia H. F. Maruyama</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-<!-- 
-    <div class="lead text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            Nós cordialmente convidamos vocês para a cerimônia de casamento
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <div class="section">
       <div class="container-fluid">
         <div class="row">
             <h1 class="text-center wow fadeInDown font_title" id="theme_other" style="font-size: 48px; margin-top: -2px;">FALTAM:</h1> 
-          <!-- <div class="text-center wow fadeInDown font_garamond" style="font-size: 30px;">FALTAM...</div><br> -->
         </div>
         <div class="row color-default">
 
@@ -274,45 +244,47 @@
         </div>
         <div class="row">
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img1.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
-              <img src="assets/img/gallery/img1_thumb.jpg"  class="img-responsive">
+            <a href="assets/img/gallery/ensaio_5.jpg" data-wow-delay="0.5s" class="photo wow fadeInUp">
+              <img src="assets/img/gallery/ensaio_5.jpg" class="img-responsive">
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img2.jpg" data-wow-delay="0.5s" class="photo wow fadeInUp">
-              <img src="assets/img/gallery/img2_thumb.jpg" class="img-responsive">
+            <a href="assets/img/gallery/ensaio_2.jpg" data-wow-delay="0.5s" class="photo wow fadeInUp">
+              <img src="assets/img/gallery/ensaio_2.jpg" class="img-responsive">
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img3.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
-              <img src="assets/img/gallery/img3_thumb.jpg" class="img-responsive">
+            <a href="assets/img/gallery/ensaio_3.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
+              <img src="assets/img/gallery/ensaio_3.jpg" class="img-responsive">
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img4.jpg" data-wow-delay="0.5s" class="photo wow fadeInUp">
-              <img src="assets/img/gallery/img4_thumb.jpg" class="img-responsive">
+            <a href="assets/img/gallery/ensaio_6.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
+              <img src="assets/img/gallery/ensaio_6.jpg" class="img-responsive">
             </a>
           </div>
         </div>
         <div class="row">
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img5.jpg" data-wow-delay="0.5s" class="photo wow fadeInUp">
-              <img src="assets/img/gallery/img5_thumb.jpg" class="img-responsive">
+            <a href="assets/img/gallery/ensaio_11.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
+              <img src="assets/img/gallery/ensaio_11.jpg"  class="img-responsive">
+            </a>
+          </div>          
+
+          <div class="col-md-3 col-sm-6">
+            <a href="assets/img/gallery/ensaio_10.jpg" data-wow-delay="0.5s" class="photo wow fadeInUp">
+              <img src="assets/img/gallery/ensaio_10.jpg" class="img-responsive">
+            </a>
+          </div>          
+
+          <div class="col-md-3 col-sm-6">
+            <a href="assets/img/gallery/ensaio_7.jpg" data-wow-delay="0.5s" class="photo wow fadeInUp">
+              <img src="assets/img/gallery/ensaio_7.jpg" class="img-responsive">
             </a>
           </div>
           <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img6.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
-              <img src="assets/img/gallery/img6_thumb.jpg" class="img-responsive">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img5.jpg" data-wow-delay="0.5s" class="photo wow fadeInUp">
-              <img src="assets/img/gallery/img5_thumb.jpg" class="img-responsive">
-            </a>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <a href="assets/img/gallery/img6.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
-              <img src="assets/img/gallery/img6_thumb.jpg" class="img-responsive">
+            <a href="assets/img/gallery/ensaio_8.jpg" data-wow-delay="0.5s" class="photo wow fadeInDown">
+              <img src="assets/img/gallery/ensaio_8.jpg" class="img-responsive">
             </a>
           </div>          
         </div>

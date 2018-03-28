@@ -3,10 +3,6 @@
      src: url('/assets/fonts/Flaming.otf');
 }
 @font-face {
-  font-family: 'digital';
-  src: url('/assets/fonts/digi.ttf');
-}
-@font-face {
   font-family: 'Love_Hewits';
   src: url('/assets/fonts/Love_Hewits.ttf');
 }
