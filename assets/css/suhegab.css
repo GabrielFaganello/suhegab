@@ -134,6 +134,9 @@
 	.size-gamb{
 		height: 450px !important;
 	}
+	.padding-gamb{
+		padding-left: 4.5% !important
+	}
 
 }
 
@@ -173,6 +176,10 @@
 
 	.size-gamb{
 		height: 600px !important;
+	}
+
+	.padding-gamb{
+		padding-left: 8% !important
 	}
 
 }
