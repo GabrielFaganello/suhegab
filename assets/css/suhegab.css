@@ -134,7 +134,12 @@
 	.size-gamb{
 		height: 450px !important;
 	}
-
+	.centralizado {
+		display: flex;
+		flex-direction: row;
+        justify-content: center !important;
+        align-items: center;
+	}
 }
 
 @media (min-width: 767px) {
@@ -174,5 +179,10 @@
 	.size-gamb{
 		height: 600px !important;
 	}
-
+	.centralizado {
+		display: flex;
+		flex-direction: row;
+        justify-content: center !important;
+        align-items: center;
+	}
 }

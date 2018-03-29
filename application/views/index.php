@@ -190,7 +190,7 @@
             </div>
 
             <div class="col-md-4">
-              <div class="media wow fadeInDown" style="padding-left: 9%; margin-bottom: 20px;">
+              <div class="media wow fadeInDown centralizado" style=" margin-bottom: 20px;">
                 <div class="circle">
                     <img class="media-object" src="assets/img/suh_gab.jpg" alt="..."><br>
                 </div>
